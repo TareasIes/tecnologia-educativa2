@@ -1,0 +1,141 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biblioteca Teórica</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      background: #ffffff;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+header {
+  background-color: #006d77;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+nav {
+  background-color: #83c5be;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+
+nav a {
+  color: white;
+  background-color: #006d77;
+  padding: 10px 16px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #264653;
+}
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 0.5rem;
+    }
+
+    p.subtitle {
+      text-align: center;
+      color: #555;
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin: 1rem 0;
+      background: #e9f1fb;
+      padding: 1rem;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      transition: background 0.3s ease;
+      border-left: 4px solid #2980b9;
+    }
+
+    li:hover {
+      background: #d6e8f6;
+    }
+
+    li a {
+      text-decoration: none;
+      color: #1a252f;
+      font-weight: 600;
+      flex-grow: 1;
+    }
+
+    .icon {
+      margin-right: 1rem;
+      font-size: 1.4rem;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 1rem;
+        margin: 1rem;
+      }
+
+      li {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      li a {
+        margin-top: 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+ <header>
+ <h1> Biblioteca de Trabajos Practicos </h1>
+    <nav>
+<a href="index.html">Inicio</a>
+    </nav>
+  </header>
+  <main>
+    <article class="intro">
+      <p><strong>Actualizado el:</strong> 01/10/2025</p>
+    </article>
+  </main>
+
+  <div class="container">
+  <p>Accede a trabajos prácticos desarrollados que son soporte teórico de la materia.</p>
+ <ul>
+  <li><span class="icon">📘</span><a href="entradas/textos/TP1.pdf" target="_blank">Trabajo Práctico N1 - Entrada 1</a></li>
+  <li><span class="icon">📘</span><a href="entradas/textos/TP2.pdf" target="_blank">Trabajo Práctico N2 - Entrada 2</a></li>
+  <li><span class="icon">📘</span><a href="entradas/textos/TP3.pdf" target="_blank">Trabajo Práctico N3 - Entrada 3</a></li>
+    <li><span class="icon">📘</span><a href="entradas/textos/TP4.pdf" target="_blank">Trabajo Práctico N4 - Entrada 4</a></li>
+</ul>
+
+</div>
+
+</body>
+</html>
