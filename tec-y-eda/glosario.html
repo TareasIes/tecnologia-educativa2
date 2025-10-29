@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Glosario</title>
+<style>
+   
+body {
+  background-color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #006d77;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+header h1 {
+  color: white;
+    font-size: 2.0rem;
+ 
+}
+nav {
+  background-color: #83c5be;
+  overflow: hidden;
+  display: flex;
+  justify-content: left;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+
+nav a {
+  color: white;
+  background-color: #006d77;
+  padding: 10px 16px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #264653;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #264653;
+}
+
+
+.box {
+  background-color: #edf6f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 15px;
+  width: 280px;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.box:hover {
+  transform: scale(1.05);
+}
+
+.box h3 {
+  color: #023047;
+  text-align: center;
+  margin-top: 0;
+}
+
+.content {
+  display: none;
+  font-size: 15px;
+  color: #222;
+  text-align: justify;
+}
+
+.toggle-btn {
+  background-color: #219ebc;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.toggle-btn:hover {
+  background-color: #126782;
+}
+
+footer {
+  background-color: #006d77;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+}
+header nav a {
+  font-size: 1rem;
+}
+
+table, th, td {
+  border: 1px solid #888;
+  border-collapse: collapse;
+  padding: 8px;
+  text-align: center;
+}
+.tabla-glosario {
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 1100px;
+  border-collapse: collapse;
+  font-size: 1rem;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.tabla-glosario th, .tabla-glosario td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabla-glosario th {
+  background-color: #0066cc;
+  color: white;
+  font-weight: 600;
+}
+
+.tabla-glosario tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+@media (max-width: 768px) {
+  .tabla-glosario {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+
+  .tabla-glosario th, .tabla-glosario td {
+    padding: 0.6rem;
+  }
+}
+</style>
+</head>
+<body>
+  <header>
+    Tecnología Educativa y Educación a Distancia
+  </header>
+
+    <nav>
+ <a href="index.html">Inicio</a>
+    </nav>
+
+
+<section class="glosario-section">
+<div class="glosario-card">
+<h2 class="glosario-titulo">📘 Glosario</h2>
+<table class="glosario-tabla">
+<thead>
+<tr>
+<th>Término</th>
+<th>Definición</th>
+<th>Ejemplo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Autonomía crítica</strong></td>
+<td>Capacidad del estudiante para aplicar juicios críticos a los mensajes de los medios, incluso en ausencia del docente.</td>
+<td>Un alumno que analiza críticamente un programa de TV sin guía externa.</td>
+</tr>
+<tr>
+  <td><strong>Avatar</strong></td>
+  <td>Representación digital del usuario dentro del metaverso, que puede imitar su aspecto real o ser completamente ficticia.</td>
+  <td>Un estudiante crea un avatar con el que asiste a una clase virtual en un campus del metaverso.</td>
+</tr>
+<tr>
+      <td><strong>Brecha digital</strong></td>
+      <td>Desigualdad en el acceso, uso y aprovechamiento de las TIC entre distintos sectores sociales, regiones y escuelas. Incluye tanto la disponibilidad de dispositivos como el capital cultural para utilizarlos.</td>
+      <td>Diferencias entre escuelas urbanas con conectividad y rurales sin acceso a Internet.</td>
+    </tr>
+    <tr>
+       <td><strong>CAIE (Centros de Actualización e Innovación Educativa)</strong></td>
+      <td>Redes interinstitucionales que articulan formación docente y actualización tecnológica en Argentina.</td>
+      <td>Espacios de capacitación en nuevas herramientas digitales para docentes.</td>
+    </tr>
+<tr>
+<td><strong>Calidad educativa</strong></td>
+<td>Dimensión vinculada a políticas y estándares que buscan logros académicos, sociales y laborales.</td>
+<td>Pruebas nacionales de desempeño estudiantil.</td>
+</tr>
+
+<tr>
+<td><strong>Cognitivismo</strong></td>
+<td>Teoría que considera al alumno un sujeto activo que procesa y organiza información.</td>
+<td>Uso de mapas conceptuales o esquemas.</td>
+</tr>
+<tr>
+<td><strong>Conductismo</strong></td>
+<td>Teoría que entiende el aprendizaje como cambio de conducta observable por estímulos y refuerzos.</td>
+<td>Máquina de enseñanza de Skinner.</td>
+</tr>
+<tr>
+<td><strong>Constructivismo</strong></td>
+<td>Teoría que concibe el aprendizaje como construcción social y cultural.</td>
+<td>Proyectos grupales con mediación docente.</td>
+</tr>
+<tr>
+<td><strong>Correspondencia (EaD)</strong></td>
+<td>Primera forma de EaD, basada en el envío de materiales impresos por correo postal.</td>
+<td>Curso de taquigrafía de Caleb Philipps (1728).</td>
+</tr>
+<tr>
+<td><strong>Diseño Instruccional (DI)</strong></td>
+<td>Planificación sistemática del proceso educativo para crear escenarios óptimos de aprendizaje.</td>
+<td>Un programa en línea con objetivos, actividades interactivas y evaluación.</td>
+</tr>
+<tr>
+<td><strong>Didáctic</strong></td>
+<td>Campo que prescribe cómo enseñar, traduciendo teorías psicológicas en estrategias concretas.</td>
+<td>Aplicar instrucción receptiva, directiva, por descubrimiento guiado o exploratoria.</td>
+</tr>
+<tr>
+  <td><strong>Economía digital</strong></td>
+  <td>Sistema económico propio del metaverso que permite comprar, vender o intercambiar bienes y servicios virtuales, con dinero real, criptomonedas o tokens.</td>
+  <td>Compra de ropa digital para un avatar utilizando criptomonedas.</td>
+</tr>
+<tr>
+<td><strong>Educación a distancia (EaD)</strong></td>
+<td>Modalidad en la que enseñanza y aprendizaje se realizan mediante medios tecnológicos, sin coincidencia espacio-temporal entre docente y alumno.</td>
+<td>Cursos por correo, radio educativa, plataformas virtuales.</td>
+</tr>
+<tr>
+      <td><strong>Educación digital</strong></td>
+      <td>Proceso formativo presencial o a distancia que integra tecnologías digitales para promover aprendizajes significativos, permanentes y autónomos. Implica un cambio de paradigma en los roles docentes y estudiantiles.</td>
+      <td>Uso de plataformas virtuales en escuelas secundarias y universidades.</td>
+    </tr>
+<tr>
+  <td><strong>Educación para los Medios (EPM)</strong></td>
+  <td>Propuesta pedagógica que busca formar a los estudiantes como usuarios críticos y reflexivos de los medios de comunicación, aprovechándolos como recursos educativos.</td>
+  <td>Actividad escolar donde se analizan publicidades para identificar estereotipos.</td>
+</tr>
+<tr>
+  <td><strong>Emirec</strong></td>
+  <td>Modelo comunicacional donde todos los actores son simultáneamente emisores y receptores, favoreciendo la retroalimentación y la interacción horizontal.</td>
+  <td>Un foro virtual donde docentes y alumnos intercambian conocimientos y opiniones.</td>
+</tr>
+<td><strong>Especialización en Educación y TIC</strong></td>
+      <td>Programa de capacitación docente de nivel superior orientado al uso pedagógico de tecnologías y a la reflexión crítica sobre las prácticas educativas.</td>
+      <td>Docentes que realizan la especialización para actualizar su práctica en entornos digitales.</td>
+    </tr>
+  <tr>
+  <td><strong>Exclusión digital</strong></td>
+  <td>Desigualdad en el acceso a dispositivos, conectividad y alfabetización tecnológica que limita la participación en entornos virtuales como el metaverso.</td>
+  <td>Estudiantes de zonas rurales que no pueden acceder a experiencias educativas inmersivas por falta de conexión a Internet.</td>
+</tr>
+<tr>
+<td><strong>Fundamentos del DI</strong></td>
+<td>Factores que sostienen el DI: psicología, didáctica, política/calidad educativa y tecnología.</td>
+<td>Plan curricular que combina teorías del aprendizaje, estrategias didácticas, estándares de calidad y uso de TIC.</td>
+</tr>
+<tr>
+<td><strong>Hardware</strong></td>
+<td>Dispositivos físicos que soportan procesos educativos.</td>
+<td>Radios, computadoras, proyectores.</td>
+</tr>
+<tr>
+          <tr>
+          <td><strong>Hipermedia</strong></td>
+          <td>Integración de multimedia con estructura hipertextual que permite navegación no lineal e interactiva.</td>
+          <td>Un curso en línea con texto, videos, gráficos y enlaces navegables.</td>
+        </tr>
+        <tr>
+          <td><strong>Hipertexto</strong></td>
+          <td>Sistema de organización no secuencial de documentos interconectados mediante enlaces.</td>
+          <td>Wikipedia como red de artículos interrelacionados.</td>
+        </tr>
+        <tr>
+          <td><strong>Interactividad</strong></td>
+          <td>Capacidad de un sistema para responder a las acciones del usuario, permitiéndole cierto control sobre el aprendizaje.</td>
+          <td>Un simulador en línea donde el estudiante manipula variables y obtiene resultados.</td>
+        </tr>
+  <tr>
+  <td><strong>Identidad digital</strong></td>
+  <td>Personalidad o perfil que un usuario construye en entornos virtuales, generalmente representada mediante un avatar.</td>
+  <td>Crear un perfil educativo en el metaverso para cursos, exámenes o reuniones.</td>
+</tr>
+<tr>
+  <td><strong>Inmersión</strong></td>
+  <td>Sensación de “estar presente” dentro del entorno virtual, lograda mediante tecnologías como realidad virtual (VR) o aumentada (AR).</td>
+  <td>Un alumno explora en primera persona una simulación del antiguo Egipto usando un casco VR.</td>
+</tr>
+ <tr>
+  <td><strong>Internet (EaD)</strong></td>
+<td>Etapa de EaD caracterizada por la interactividad y la creación de Ambientes Virtuales de Aprendizaje.</td>
+<td>Moodle, Google Classroom, MOOCs.</td>
+</tr>
+<tr>
+  <td><strong>Interoperabilidad</strong></td>
+  <td>Capacidad del metaverso para conectar diferentes plataformas y servicios, permitiendo el traslado de objetos y experiencias digitales entre sistemas.</td>
+  <td>Usar el mismo avatar y accesorios digitales tanto en un videojuego como en una sala virtual educativa.</td>
+</tr>
+<tr>
+  <td><strong>Lenguaje total</strong></td>
+  <td>Concepto de Antoine Vallet que propone integrar todos los lenguajes humanos (oral, escrito, corporal, visual, sonoro) para un aprendizaje integral.</td>
+  <td>Un proyecto escolar que combina lectura, dramatización, música e imágenes.</td>
+</tr>
+          <td><strong>Material didáctico</strong></td>
+          <td>Recurso tecnológico que articula mensajes con finalidad educativa, compuesto por soporte, contenido, forma simbólica y propósito instructivo.</td>
+          <td>Libro de texto, video educativo, software interactivo.</td>
+        </tr>
+        <tr>
+          <td><strong>Medios audiovisuales</strong></td>
+          <td>Materiales que integran imagen en movimiento y sonido, usados para instrucción y comunicación masiva.</td>
+          <td>Cine, televisión, video educativo.</td>
+        </tr>
+        <tr>
+          <td><strong>Medios digitales</strong></td>
+          <td>Recursos basados en tecnologías electrónicas que integran texto, sonido e imagen bajo formato numérico.</td>
+          <td>CD-ROM, DVD, plataformas virtuales, Internet.</td>
+        </tr>
+        <tr>
+          <td><strong>Medios impresos</strong></td>
+          <td>Materiales en soporte papel que representan la tecnología dominante en la escuela.</td>
+          <td>Libros de texto, cuadernos de ejercicios, cómics.</td>
+        </tr>
+        <tr>
+          <td><strong>Medio de enseñanza</strong></td>
+          <td>Todo recurso tecnológico que vehicula información codificada en un sistema de símbolos con propósito instructivo.</td>
+          <td>Un proyector mostrando diapositivas educativas.</td>
+        </tr>
+  <tr>
+  <td><strong>Metaverso</strong></td>
+  <td>Entorno virtual tridimensional, inmersivo y persistente donde las personas interactúan en tiempo real mediante avatares, combinando VR, AR, IA, blockchain y redes sociales.</td>
+  <td>Estudiantes de distintas provincias asisten a una clase virtual en un aula 3D interactiva.</td>
+</tr>
+     <tr>
+      <td><strong>Modelo 1 a 1</strong></td>
+      <td>Estrategia que asigna una computadora por estudiante, promoviendo autonomía y personalización. Enfrenta dificultades por falta de infraestructura y capacitación.</td>
+      <td>El programa Conectar Igualdad distribuyendo netbooks a cada alumno.</td>
+    </tr>
+    <tr>
+      <td><strong>Modelo 1 a 4</strong></td>
+      <td>Propuesta (inspirada en la experiencia de Sugata Mitra) donde cuatro estudiantes comparten un dispositivo, favoreciendo el aprendizaje colaborativo y autónomo.</td>
+      <td>Grupo de alumnos investigando juntos en una computadora compartida.</td>
+    </tr>
+<tr>
+  <td><strong>Modelo bancario de la educación</strong></td>
+  <td>Concepto de Paulo Freire que critica la enseñanza tradicional, en la cual el docente “deposita” conocimientos en estudiantes pasivos.</td>
+  <td>Clase expositiva donde los alumnos solo memorizan sin reflexionar.</td>
+</tr>
+<tr>
+  <td><strong>Modelo unidireccional</strong></td>
+  <td>Esquema comunicativo donde la información fluye en una sola dirección, del emisor al receptor, sin retroalimentación.</td>
+  <td>Una clase transmitida por radio en la que los alumnos no pueden responder.</td>
+</tr>
+        <tr>
+          <td><strong>Multimedia</strong></td>
+          <td>Dispositivo o sistema que integra distintos formatos de información: texto, gráficos, sonido, imágenes o video.</td>
+          <td>Presentación digital con audio, texto y animaciones.</td>
+        </tr>
+<tr>
+  <td><strong>Nuevas Tecnologías aplicadas a la educación</strong></td>
+  <td>Conjunto de recursos digitales, audiovisuales y telemáticos integrados en un marco pedagógico que mejoran la enseñanza y el aprendizaje.</td>
+  <td>Uso de plataformas virtuales (Classroom, Moodle) para la educación a distancia.</td>
+</tr>
+<tr>
+  <td><strong>Persistencia</strong></td>
+  <td>Propiedad del metaverso que asegura su continuidad incluso cuando el usuario está desconectado. El entorno sigue activo para otros.</td>
+  <td>Mientras un usuario está offline, otros continúan usando el campus virtual.</td>
+</tr>
+<tr>
+      <td><strong>Programa Conectar Igualdad</strong></td>
+      <td>Política pública argentina (2010) que distribuyó netbooks a estudiantes y docentes de secundaria, educación especial y formación docente, buscando reducir brechas digitales y sociales.</td>
+      <td>Alumno de secundaria usando su netbook para clases de matemática y lengua.</td>
+    </tr>
+<tr>
+<td><strong>Psicología del aprendizaje</strong></td>
+<td>Disciplina que explica cómo aprenden las personas a partir de teorías (conductismo, cognitivismo, constructivismo).</td>
+<td>Diseñar refuerzos conductistas, organizadores previos cognitivistas o proyectos colaborativos constructivistas.</td>
+</tr>
+<tr>
+<td><strong>Radio educativa</strong></td>
+<td>Uso de la radio para transmitir programas educativos de alcance masivo y comunitario.</td>
+<td>Radio Sutatenza en Colombia (1947).</td>
+</tr>
+<tr>
+  <td><strong>Realidad Aumentada (AR)</strong></td>
+  <td>Tecnología que superpone elementos digitales sobre el entorno físico, ampliando la experiencia real del usuario.</td>
+  <td>Utilizar el celular para visualizar modelos 3D del sistema solar sobre una mesa del aula.</td>
+</tr>
+<tr>
+  <td><strong>Realidad Virtual (VR)</strong></td>
+  <td>Tecnología que sumerge al usuario completamente en un entorno digital tridimensional.</td>
+  <td>Practicar una cirugía simulada en un hospital virtual antes de realizarla con pacientes reales.</td>
+</tr>
+<tr>
+  <td><strong>Riesgos del metaverso</strong></td>
+  <td>Conjunto de desafíos éticos, sociales, psicológicos y ambientales derivados del uso intensivo del metaverso.</td>
+  <td>Adicción, ciberacoso, contaminación digital, o violación de datos en entornos virtuales.</td>
+</tr>
+<tr>
+<td><strong>Software</strong></td>
+<td>Lenguajes, sistemas simbólicos y programas que organizan y controlan el hardware.</td>
+<td>HTML, Moodle, aplicaciones interactivas.</td>
+</tr>
+   <tr>
+          <td><strong>Socialización cultural</strong></td>
+          <td>Proceso por el cual los medios transmiten valores, símbolos, conocimientos y formas de pensamiento que integran al individuo en una cultura.</td>
+          <td>Aprendizaje de valores ciudadanos a través de programas escolares televisivos.</td>
+        </tr>
+<tr>
+<td><strong>Tecnología “de” la educación</strong></td>
+<td>Concepción más amplia: integra medios, contextos de aprendizaje y actores educativos.</td>
+<td>Un curso virtual planificado con objetivos, tutorías, foros y evaluaciones.</td>
+</tr>
+<tr>
+<td><strong>Tecnología “en” la educación</strong></td>
+<td>Inserción de medios tecnológicos como herramientas auxiliares de transmisión de mensajes.</td>
+<td>Uso de proyectores, televisión o Internet para mostrar contenidos en clase.</td>
+</tr>
+<tr>
+      <td><strong>Tecnología y aula</strong></td>
+      <td>Relación que concibe la tecnología no solo como recurso, sino como factor de transformación social y pedagógica, que resignifica prácticas escolares y abre la posibilidad de modelos híbridos.</td>
+      <td>Uso de pizarras digitales y plataformas en un aula presencial.</td>
+    </tr>
+<tr>
+<td><strong>Zona de Desarrollo Próximo (ZDP)</strong></td>
+<td>Diferencia entre lo que un alumno puede hacer solo y lo que logra con ayuda de otro más competente.</td>
+<td>Tutoría en la que un estudiante aprende a resolver un problema matemático con apoyo.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</body>
+
+  <footer>
+    <p>&copy; 2025 Sitio desarrollado por Evelyn Veliz</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tecnología Educativa y Educación a Distancia</title>
+  <style>
+   
+body {
+  background-color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #006d77;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+nav {
+  background-color: #83c5be;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+
+nav a {
+  color: white;
+  background-color: #006d77;
+  padding: 10px 16px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #264653;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #264653;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.box {
+  background-color: #edf6f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 15px;
+  width: 280px;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.box:hover {
+  transform: scale(1.05);
+}
+
+.box h3 {
+  color: #023047;
+  text-align: center;
+  margin-top: 0;
+}
+
+.content {
+  display: none;
+  font-size: 15px;
+  color: #222;
+  text-align: justify;
+}
+
+.toggle-btn {
+  background-color: #219ebc;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.toggle-btn:hover {
+  background-color: #126782;
+}
+
+footer {
+  background-color: #006d77;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+}
+</style>
+</head>
+<body>
+
+  <header>
+    Tecnología Educativa y Educación a Distancia
+  </header>
+
+<nav>
+<a href="https://iescubas-cat.infd.edu.ar/sitio/" target="_blank">IES GOB JOSE CUBAS</a>
+<a href="https://educacionadistancia.unca.edu.ar/" target="_blank">UNCA EaD</a>
+<a href="https://web.catamarca.edu.ar/sitio/" target="_blank">Ministerio de Educación</a>
+</nav>
+
+  <h1>Desarollo de Clases</h1>
+  <div class="container">
+    <div class="box" onclick="toggleContent('contentEntrada1')">
+      <h3>Entrada 1</h3>
+      <div id="contentEntrada1" class="content">
+        <center><a href="entradas/tecnologia-educativa.html" target="_blank"> ¿Qué es la Tecnología Educativa?</a></center>
+      </div>
+      <button class="toggle-btn">Mostrar más</button>
+    </div>
+
+<div class="box" onclick="toggleContent('contentEntrada2')">
+<h3>Entrada 2</h3>
+<div id="contentEntrada2" class="content">
+<center><a href="entradas/entrada2.html" target="_blank"> Medio de enseñanza o Material didactico </a></center>
+</div>
+<button class="toggle-btn">Mostrar más</button>
+</div>
+
+
+<div class="box" onclick="toggleContent('contentEntrada3')">
+<h3>Entrada 3</h3>
+<div id="contentEntrada3" class="content">
+<center><a href="entradas/entrada3.html" target="_blank"> Educación para los Medios desde el Constructivismo </a></center>
+</div>
+<button class="toggle-btn">Mostrar más</button>
+</div>
+
+
+<div class="box" onclick="toggleContent('contentEntrada4')">
+<h3>Entrada 4</h3>
+<div id="contentEntrada4" class="content">
+<center><a href="entradas/entrada4.html" target="_blank"> Educación Digital e Hibridez Escolar </a></center>
+</div>
+<button class="toggle-btn">Mostrar más</button>
+</div>
+
+<div class="box" onclick="toggleContent('contentEntrada5')">
+<h3>Entrada 5</h3>
+<div id="contentEntrada5" class="content">
+<center><a href="entradas/entrada5.html" target="_blank"> Monografia Metaverso </a></center>
+</div>
+<button class="toggle-btn">Mostrar más</button>
+</div>
+
+<div class="box" onclick="toggleContent('contentGlosario')">
+<h3>Glosario</h3>
+<div id="contentGlosario" class="content">
+<center><a href="glosario.html" target="_blank"> Explorar términos clave</a></center>
+</div>
+<button class="toggle-btn">Mostrar más</button>
+</div>
+
+<div class="box" onclick="toggleContent('contentTeoria')">
+  <h3>Teoría</h3>
+  <div id="contentTeoria" class="content">
+    <center><a href="biblioteca.html" target="_blank"> Acceder al desarrollo teórico</a></center>
+  </div>
+  <button class="toggle-btn">Mostrar más</button>
+</div>
+
+<div class="box" onclick="toggleContent('contentMEET')">
+  <h3>MEET</h3>
+  <div id="contentMEET" class="content">
+    <center><a href="MEET.html" target="_blank"> Acceder a llamada MEET</a></center>
+  </div>
+  <button class="toggle-btn">Mostrar más</button>
+</div>
+
+<div class="box" onclick="toggleContent('contentRecursos')">
+<h3>Recursos</h3>
+<div id="contentRecursos" class="content">
+<center><a href="recursos.html" target="_blank"> Acceder a recursos digitales</a></center>
+</div>
+<button class="toggle-btn">Mostrar más</button>
+</div>
+</div>
+
+
+  <script>
+    function toggleContent(contentId) {
+      const content = document.getElementById(contentId);
+      const button = content.nextElementSibling;
+      if (content.style.display === "none" || content.style.display === "") {
+        content.style.display = "block";
+        button.textContent = "Mostrar menos";
+      } else {
+        content.style.display = "none";
+        button.textContent = "Mostrar más";
+      }
+    }
+  </script>
+
+  <footer>
+    <p>&copy; 2025 Sitio desarrollado por Veliz Evelyn Daniela & Villacorta Maria Laura </p>
+  </footer>
+</body>
+</html>
